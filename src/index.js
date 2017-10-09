@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 // create a new component. this component should produce some html
 
-const App = function() { //this function is a class ie it constructs instances of what is inside the func
+const App = () => { //this function is a class ie it constructs instances of what is inside the func
   return <div> Hi! </div>;
 }
 
